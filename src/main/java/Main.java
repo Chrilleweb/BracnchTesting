@@ -6,5 +6,7 @@ public class Main {
         System.out.print("Hunden siger: ");dog.makeSound();
         System.out.println(dog.eatMetode("hundemad"));
         System.out.println(cat.eatMetode("fish"));
+        System.out.print("Katten ");cat.mood(false);
+        System.out.print("Hunden ");dog.mood(true);
     }
 }
