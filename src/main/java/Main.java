@@ -4,5 +4,6 @@ public class Main {
         Dog dog = new Dog();
         cat.makeSound();
         dog.makeSound();
+        System.out.println(dog.eatMetode("mad"));
     }
 }
